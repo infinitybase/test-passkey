@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "bakosafe": "0.1.1-betha-passkey",
+    "bakosafe": "0.1.2-betha-passkey",
     "events": "^3.3.0",
     "fuels": "0.96.1",
     "json-rpc-2.0": "^1.7.0",
