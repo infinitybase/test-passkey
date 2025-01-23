@@ -11,7 +11,7 @@
   "dependencies": {
     "@trpc/client": "^10.45.2",
     "@trpc/server": "^10.45.2",
-    "bakosafe": "/Users/guimroque/Infinity/bsafe/bako-safe/packages/sdk/bakosafe-0.1.1dsna.tgz",
+    "bakosafe": "0.1.1-betha-passkey",
     "events": "^3.3.0",
     "fuels": "0.96.1",
     "json-rpc-2.0": "^1.7.0",
