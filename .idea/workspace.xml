@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3f6487c-adae-4c8a-931d-688450642835" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bakoui.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakoui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bakoui.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    <list default="true" id="b3f6487c-adae-4c8a-931d-688450642835" name="Changes" comment="feat: improve ui">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +89,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737998640324</updated>
-      <workItem from="1737998641364" duration="9975000" />
+      <workItem from="1737998641364" duration="10620000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: improve ui">
+      <option name="closed" value="true" />
+      <created>1738012946896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738012946896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="feat: improve ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: improve ui" />
+    <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
