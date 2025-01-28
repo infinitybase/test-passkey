@@ -1,5 +1,5 @@
 import {ReactNode, useEffect, useRef, useState} from "react";
-import {Box, Button, Center, chakra, createIcon, Flex, ProgressCircleRoot, VStack} from "@chakra-ui/react";
+import {Box, Button, Center, chakra, createIcon, Flex, HStack, ProgressCircleRoot, VStack, Text} from "@chakra-ui/react";
 import {ProgressCircleRing} from "@/components/ui/progress-circle.tsx";
 import {bytesToHex, createAccount, JSONRpcMessageRequest, signChallange} from "bakosafe";
 import {JSONRPCServer} from "json-rpc-2.0";
@@ -65,6 +65,12 @@ const PageWrapper = ({children}: { children: ReactNode }) => {
                 flexDirection="column"
             >
                 {children}
+                <HStack as="a" target="blank" href="https://bako.global/" mt={4} gap={1}>
+                    <Text color="gray" fontSize="xs" as="span">
+                        Powered by
+                    </Text>
+                    <BakoIcon size="sm" color="gray.600"/>
+                </HStack>
             </Center>
         </Flex>
     )
@@ -201,7 +207,6 @@ function App() {
 
     return (
         <PageWrapper>
-            <BakoIcon w="36px" color="gray.600"/>
             {(!isReady || !page) && (
                 <VStack justifyContent="center" h="full" mt={8} flex={1}>
                     <ProgressCircleRoot value={null} size="sm">
@@ -210,7 +215,7 @@ function App() {
                 </VStack>
             )}
             {page?.type === Page.CreateAccount && (
-                <VStack w="full" flex={2}>
+                <VStack w="full" flex={1}>
                     <Center w="full" maxW={300} flex={1}>
                         <EmptyState
                             title="Passkey Account"
