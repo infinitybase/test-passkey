@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3f6487c-adae-4c8a-931d-688450642835" name="Changes" comment="chore: update sdk version">
+    <list default="true" id="b3f6487c-adae-4c8a-931d-688450642835" name="Changes" comment="chore: ignore prop error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1737998640324</updated>
       <workItem from="1737998641364" duration="12428000" />
-      <workItem from="1738076300400" duration="171000" />
+      <workItem from="1738076300400" duration="432000" />
+      <workItem from="1738179985853" duration="2356000" />
     </task>
     <task id="LOCAL-00001" summary="feat: improve ui">
       <option name="closed" value="true" />
@@ -117,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738013777891</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: improve ui">
+      <option name="closed" value="true" />
+      <created>1738076483125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738076483125</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore: ignore prop error">
+      <option name="closed" value="true" />
+      <created>1738076621234</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738076621234</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,9 +144,10 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat: improve ui" />
     <MESSAGE value="chore: update sdk version" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update sdk version" />
+    <MESSAGE value="feat: improve ui" />
+    <MESSAGE value="chore: ignore prop error" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: ignore prop error" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
