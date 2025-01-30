@@ -33,7 +33,7 @@ const PageWrapper = ({children}: { children: ReactNode }) => {
         <Flex
             align="center"
             justify="center"
-            minH="100vh"
+            minH={`${window.innerHeight}px`}
             bg="black"
             w="100vw"
         >
@@ -54,24 +54,17 @@ const PageWrapper = ({children}: { children: ReactNode }) => {
                 p={4}
                 px={5}
                 height={{
-                    base: '100vh',
+                    base: `${window.innerHeight}px`,
                     sm: 600
                 }}
                 maxH={{
-                    base: '100vh',
+                    base: `${window.innerHeight}px`,
                     sm: 600
                 }}
                 textAlign="center"
                 flexDirection="column"
             >
                 {children}
-                {/* @ts-expect-error target not included in hstack */}
-                <HStack as="a" target="blank" href="https://bako.global/" mt={4} gap={1}>
-                    <Text color="gray" fontSize="xs" as="span">
-                        Powered by
-                    </Text>
-                    <BakoIcon size="sm" color="gray.600"/>
-                </HStack>
             </Center>
         </Flex>
     )
