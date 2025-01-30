@@ -65,6 +65,13 @@ const PageWrapper = ({children}: { children: ReactNode }) => {
                 flexDirection="column"
             >
                 {children}
+                {/* @ts-expect-error target not included in hstack */}
+                <HStack as="a" target="blank" href="https://bako.global/" mt={4} gap={1}>
+                    <Text color="gray" fontSize="xs" as="span">
+                        Powered by
+                    </Text>
+                    <BakoIcon size="sm" color="gray.600"/>
+                </HStack>
             </Center>
         </Flex>
     )
